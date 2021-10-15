@@ -1,0 +1,54 @@
+{
+	"productCode": "PC00016",
+	"planCode": "",
+	"preOrderNo": "",
+	"trialGenes": {
+		"topInfo": [{
+			"key": "insureForSelf",
+			"value": "${insureForSelf}"
+		}],
+		"appntInfo": [{
+			"key": "birthday",
+			"value": "${appnt_birthday}"
+		}, {
+			"key": "sex",
+			"value": "${appnt_sex}"
+		}],
+		"insuredInfo": [{
+			"key": "birthday",
+			"value": "${insured_birthday}"
+		}, {
+			"key": "sex",
+			"value": "${insured_sex}"
+		}],
+		"insurePlanInfo": [{
+			"key": "ensurePeriod",
+			"value": "${ensurePeriod}"
+		}, {
+			"key": "payMethod",
+			"value": "${payMethod}"
+		}, {
+			"key": "payPeriod",
+			"value": "${payPeriod}"
+		}, {
+			"key": "cusRiskAmnt",
+			"value": "${cusRiskAmnt}"
+		}, {
+			"key": "isDutySEVEN",
+			"value": "${isDutySEVEN}",
+			"code": "XRH06MN00006DEN05"
+		}, {
+			"key": "isDutyEIGHT",
+			"value": "${isDutyEIGHT}",
+			"code": "XRH06MN00006DEN06"
+		}, {
+			"key": "isDutyNINE",
+			"value": "${isDutyNINE}",
+			"code": "XRH06MN00006DDN01"
+		}, {
+			"key": "isDutyTEN",
+			"value": "${isDutyTEN}",
+			"code": "XRH06SA00002DMA01"
+		}]
+	}
+}

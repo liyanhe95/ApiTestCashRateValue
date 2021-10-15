@@ -1,0 +1,48 @@
+{
+	"productCode": "PL00025",
+	"planCode": "",
+	"preOrderNo": "",
+	"trialGenes": {
+		"appntInfo": [{
+			"key": "birthday",
+			"value": "${appnt_birthday}"
+		}],
+		"insuredInfo": [{
+				"key": "birthday",
+				"value": "${insured_birthday}"
+			},
+			{
+				"key": "sex",
+				"value": "${insured_sex}"
+			},
+			{
+				"key": "addressCode",
+				"value": "HUAGUILL20210506173540",
+				"addressCodeList": "${addressCodeList}",
+				"addressName": "${addressName}",
+				"addressGrade": "${addressGrade}"
+			},
+			{
+				"key": "socialFlag",
+				"value": "${insured_socialFlag}"
+			}
+		],
+		"insurePlanInfo": [{
+				"key": "ensurePeriod",
+				"value": "${ensurePeriod}"
+			},
+			{
+				"key": "payMethod",
+				"value": "${payMethod}"
+			},
+			{
+				"key": "payPeriod",
+				"value": "${payPeriod}"
+			},
+			{
+				"key": "cusRiskAmnt",
+				"value": "${cusRiskAmnt}"
+			}
+		]
+	}
+}
